@@ -1,3 +1,5 @@
+/*test comment*/
+
 import './style.scss';
 //D E P E N D E C I E S
 import vueRouter from 'vue-router';
