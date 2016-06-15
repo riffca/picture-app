@@ -1,6 +1,9 @@
 <template>
-	<master-brand></master-brand>	
+
+	  <master-brand></master-brand>	
+
     <router-view></router-view>
+    
 </template>
 
 <script>

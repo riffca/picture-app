@@ -4,5 +4,9 @@ export default class Picture {
 		this.full = full;
 		this.album = album;
 		this.id = id;
+		this.show = '';
+	}
+	show(){
+		this.show = !this.show;
 	}
 }

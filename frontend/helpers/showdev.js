@@ -1,6 +1,6 @@
-module.exports = function (data, showAlert = false, callback) {
+module.exports = function (data, callback,showAlert = false) {
     if (NODE_ENV === 'development') {
-        console.log(data)
+        console.log(data);
         if (showAlert) {
             alert(data);
         }
@@ -8,4 +8,4 @@ module.exports = function (data, showAlert = false, callback) {
         	callback();
         }
     }
-}
+};
