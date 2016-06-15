@@ -10,7 +10,7 @@ var PHP = process.env.PHP || false,
     NODE_ENV = process.env.NODE_ENV || 'development';
 var
 //P A T H S 
-    nodeJsPath = path.join(__dirname, 'backend'),
+    nodeJsPath = path.join(__dirname, 'backend', 'public'),
     phpPath = path.join(__dirname, 'php', 'public'),
 //D I R S
     frontend = path.join(__dirname, 'frontend'),

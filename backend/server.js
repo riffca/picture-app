@@ -6,7 +6,7 @@ let express = require('express');
 // E X P R E S S
 let app = new express();
 
-app.use(express.static(__dirname));
+app.use(express.static(__dirname + '/public'));
 
 
 app.get('/api/user',
